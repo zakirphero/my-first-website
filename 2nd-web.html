@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Web</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+<body>
+    <div class="header">
+<nav>
+    <h3> Zakir Hasan</h3>
+    <div class="nav-menu" id="navmenus">
+        <span onclick="hidMenu()">X</span>
+        <ul>
+            <li> <a href="#"> Home</a></li>
+            <li> <a href="#"> About</a></li>
+            <li> <a href="#"> Works</a></li>
+            <li> <a href="#"> Clients</a></li>
+            <li> <a href="#"> Contact </a></li>
+            <li><input type="text" name="seach"><input type="submit" name="subit" value="seacrh"></li>
+        </ul>
+    </div>
+    <span onclick="openMenu()">Menu</span>
+    <img src="pic/zakir.png" class="p-img" alt="">
+</nav>
+<div class="titel-discription">
+<h1> MaxCoderBD</h1>
+<p>Is a Trasted Youtub channel to learn web design and devlopment.<br>lorem ipsum dolor sit amet,consecteuer sdipiscing elit.<br>aenean commodo aenean commodo ligul eget dolor.</p>
+<br>
+<a href="#">Hear Me</a>&nbsp;<a href="#">Hear Me</a>
+</div>
+    </div>
+    
+
+    <script type="text/javascript">
+        var navmenus= document.getElementById('navmenus');
+        function openMenu(){
+            navmenus.style.right="0";
+        }
+        function hidMenu(){
+            navmenus.style.right="-300px";
+        }
+    </script>
+</body>
+</html>
